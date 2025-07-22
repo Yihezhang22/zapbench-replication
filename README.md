@@ -22,7 +22,6 @@
 │   └── util.py           # 模型通用工具
 ├── main.py               # 主入口，根据 config 调度训练/评测
 ├── requirements.txt      # Python 依赖列表
-├── .gitignore            # Git 忽略配置
 └── README.md             # 本文档
 ```
 
