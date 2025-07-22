@@ -1,0 +1,7 @@
+jax>=0.4.13
+jaxlib>=0.4.13
+flax>=0.6.0
+optax>=0.1.2
+numpy>=1.24
+tqdm>=4.64
+tensorstore>=0.1.32
