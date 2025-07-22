@@ -70,16 +70,16 @@ VIDEO_CROP_XYZ = (64, 36, 9)       ##### 视频/体积模型取空间的子集�
 # ────────── 数据路径 ────────── #
 
 # 本地路径
-DATA_ROOT = Path("/root/code/zapbench_data")
-TRACE_PATH   = DATA_ROOT / "traces.zarr"              # 神经元活动trace数据
-STIMULI_PATH = DATA_ROOT / "stimuli_features.zarr"    # 刺激特征
-STATIC_PATH  = DATA_ROOT / "position_embedding.zarr"  # 空间静态特征
+#DATA_ROOT = Path("/root/code/zapbench_data")
+#TRACE_PATH   = DATA_ROOT / "traces.zarr"              # 神经元活动trace数据
+#STIMULI_PATH = DATA_ROOT / "stimuli_features.zarr"    # 刺激特征
+#STATIC_PATH  = DATA_ROOT / "position_embedding.zarr"  # 空间静态特征
 
 # 云端数据路径
 GCS_ROOT = "gs://zapbench-release/volumes/20240930"
-# TRACE_PATH   = f"{GCS_ROOT}/traces/"
-# STIMULI_PATH =  f"{GCS_ROOT}/stimuli_features/"
-# STATIC_PATH  =  f"{GCS_ROOT}/position_embedding/"
+TRACE_PATH   = f"{GCS_ROOT}/traces/"
+STIMULI_PATH =  f"{GCS_ROOT}/stimuli_features/"
+STATIC_PATH  =  f"{GCS_ROOT}/position_embedding/"
 VIDEO_RES_TAG = "s2"                           # 分辨率, s0=(2048, 1152, 72)，s1=(1024, 576, 72), s2=(512, 288, 72)
 VIDEO_PATH   = f"{GCS_ROOT}/df_over_f_xyz_chunked/{VIDEO_RES_TAG}"  
 VIDEO_SEGMENTATION_PATH = f"{GCS_ROOT}/segmentation"
