@@ -1,6 +1,6 @@
 # ZAPBench 全脑活动预测复现
 
-本项目基于 [ZAPBench](https://google-research.github.io/zapbench) 论文，实现了时序模型和体积 U-Net 的训练、验证、测试。
+基于 [ZAPBench](https://google-research.github.io/zapbench) 论文，进行了时序模型和体积 U-Net 的训练、验证、测试。
 
 ## 目录结构
 
