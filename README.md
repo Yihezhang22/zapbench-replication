@@ -1,6 +1,6 @@
 # ZAPBench 全脑活动预测复现
 
-基于 [ZAPBench](https://google-research.github.io/zapbench) 论文，进行了时序模型和体积 U-Net 的训练、验证、测试。
+基于 [ZAPBench](https://google-research.github.io/zapbench) 的复现。
 
 ## 目录结构
 
@@ -25,15 +25,6 @@
 └── README.md             # 本文档
 ```
 
-## 环境依赖
-
-建议使用虚拟环境来隔离依赖：
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
 
 ## 快速开始
 
